@@ -10,7 +10,7 @@ const cryptoSchema = new mongoose.Schema({
     required: true
   },
   buy_date: {
-    type: Date,
+    type: String,
     required: true
   },
   amount: {
